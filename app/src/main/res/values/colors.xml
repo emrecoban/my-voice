@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fac917</color>
+    <color name="colorPrimaryDark">#fdd236</color>
+    <color name="colorAccent">#c69b00</color>
+    <color name="colorBG">#f1f1f1</color>
+    <color name="cardBG">#fafafa</color>
+    <color name="colorcatTitle">#555555</color>
+    <color name="colorcatDesc">#777777</color>
+    <color name="black">#000</color>
+    <color name="primary_text_default_material_dark">#000000</color>
+    <color name="secondary_text_material_dark">#b3000000</color>
+    <color name="windowbg">#f1f1f1</color>
+</resources>

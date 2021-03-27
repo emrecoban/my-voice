@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tr.com.emrecoban.benimsesim">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/BenimSesim2">
+        <activity android:name=".whoami"
+            android:parentActivityName=".AnaEkran"/>
+        <activity android:name=".Cat0"
+            android:windowSoftInputMode="adjustResize"
+            android:parentActivityName=".AnaEkran"/>
+        <activity android:name=".Cat1"
+            android:parentActivityName=".AnaEkran"/>
+        <activity android:name=".Cat2"
+            android:parentActivityName=".AnaEkran"/>
+        <activity android:name=".Cat3"
+            android:parentActivityName=".AnaEkran"/>
+        <activity android:name=".Cat4"
+            android:parentActivityName=".AnaEkran"/>
+        <activity android:name=".Cat5"
+            android:parentActivityName=".AnaEkran"/>
+        <activity android:name=".AnaEkran">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

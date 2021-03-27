@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBG</item>
+        <item name="android:textColorSecondary">@color/secondary_text_material_dark</item>
+    </style>
+
+    <style name="BenimSesim2" parent="Theme.AppCompat.Light" >
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">?android:attr/colorBackground</item>
+    </style>
+
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.DeviceDefault.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBG</item>
+        <item name="android:textColorSecondary">@color/secondary_text_material_dark</item>
+        <item name="android:colorPrimary">@color/colorPrimary</item>
+        <item name="android:colorPrimaryDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="BenimSesim2" parent="Theme.AppCompat.Light">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:windowBackground">@color/windowbg</item>
+    </style>
+
+</resources>

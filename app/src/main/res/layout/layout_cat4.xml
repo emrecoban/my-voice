@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="tr.com.emrecoban.benimsesim.Cat4"
+        android:paddingTop="14dp"
+        android:weightSum="1">
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:weightSum="3">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cat4_1"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/cardBG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp">
+                <LinearLayout
+                    android:weightSum="3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/need_alone"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorcatTitle"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:text="Yalnızlığa"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cat4_2"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/cardBG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp">
+                <LinearLayout
+                    android:weightSum="3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/need_money"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorcatTitle"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:text="Paraya"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cat4_3"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/cardBG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp">
+                <LinearLayout
+                    android:weightSum="3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/need_glasses"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorcatTitle"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:text="Gözlüğe"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:weightSum="3">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cat4_4"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/cardBG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp">
+                <LinearLayout
+                    android:weightSum="3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/need_break"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorcatTitle"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:text="Araya"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cat4_5"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/cardBG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp">
+                <LinearLayout
+                    android:weightSum="3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/need_internet"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorcatTitle"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:text="İnternete"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cat4_6"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/cardBG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp">
+                <LinearLayout
+                    android:weightSum="3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@mipmap/need_water" />
+
+                    <TextView
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorcatTitle"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:text="Suya"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:weightSum="3">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cat4_7"
+                android:layout_weight="1"
+                app:cardBackgroundColor="@color/cardBG"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp">
+                <LinearLayout
+                    android:weightSum="3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/toilet"/>
+                    <TextView
+                        android:layout_weight="2"
+                        android:textAlignment="center"
+                        android:gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorcatTitle"
+                        android:textStyle="bold"
+                        android:textSize="16dp"
+                        android:text="Tuvalete Gitmeliyim"/>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
